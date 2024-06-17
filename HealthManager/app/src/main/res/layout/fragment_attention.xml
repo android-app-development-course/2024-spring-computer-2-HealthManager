@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UserActivity"
+    android:clipToOutline="true"
+    android:background="#FBFDF9">
+
+
+    <RelativeLayout
+        android:id="@+id/rectangle_4"
+        android:layout_width="377dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_4"
+        android:elevation="44dp">
+
+        <View
+            android:id="@+id/user_image"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/touxiang" />
+
+        <TextView
+            android:id="@+id/medley"
+            android:layout_width="50dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="84dp"
+            android:layout_marginTop="26dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="-1sp"
+            android:text="Beria"
+            android:textAppearance="@style/medley" />
+
+        <TextView
+            android:id="@+id/xiao_dcs_ou"
+            android:layout_width="121dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="84dp"
+            android:layout_marginTop="49dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="-4sp"
+            android:text="123456@qq.com"
+            android:textAppearance="@style/xiao_dcs_ou" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="372dp"
+        android:layout_height="288dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/rectangle_1"
+        android:elevation="44dp">
+
+        <LinearLayout
+            android:layout_width="345dp"
+            android:layout_height="291dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="33dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha="0.05"
+                    android:background="@drawable/ellipse_643" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:alpha="0.4"
+                    android:background="@drawable/stroke_3" />
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="23dp"
+                    android:background="@drawable/stroke_1" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="1sp"
+                    android:text="用户设置"
+                    android:textAppearance="@style/UserBigTitle"
+                    android:translationY="-0.34sp" />
+
+                <TextView
+                    android:layout_width="127dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="23dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="0sp"
+                    android:text="对账户个人信息进行设置"
+                    android:textAppearance="@style/UserSmallTitle"
+                    android:translationY="-0.04sp" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/month_chevron" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha="0.05"
+                    android:background="@drawable/ellipse_643" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:alpha="0.4"
+                    android:background="@drawable/stroke_3" />
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="23dp"
+                    android:background="@drawable/stroke_1" />
+
+                <TextView
+                    android:layout_width="81dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="1sp"
+                    android:text="地址管理"
+                    android:textAppearance="@style/UserBigTitle"
+                    android:translationY="-0.34sp" />
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="23dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="0sp"
+                    android:text="管理收货地址"
+                    android:textAppearance="@style/UserSmallTitle"
+                    android:translationY="-0.04sp" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/month_chevron" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha="0.05"
+                    android:background="@drawable/ellipse_643" />
+
+                <View
+                    android:layout_width="13dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/stroke_2" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="3dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="18dp"
+                    android:alpha="0.4"
+                    android:background="@drawable/stroke_4" />
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="1sp"
+                    android:text="两步认证"
+                    android:textAppearance="@style/UserBigTitle"
+                    android:translationY="-0.34sp" />
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="23dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="0sp"
+                    android:text="增强账户安全性"
+                    android:textAppearance="@style/UserSmallTitle"
+                    android:translationY="-0.04sp" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/month_chevron" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha="0.05"
+                    android:background="@drawable/ellipse_643" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:alpha="0.4"
+                    android:background="@drawable/stroke_5" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/stroke_6" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/stroke_7" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="1sp"
+                    android:text="账户登出"
+                    android:textAppearance="@style/UserBigTitle"
+                    android:translationY="-0.34sp" />
+
+                <TextView
+                    android:layout_width="121dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="23dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="0sp"
+                    android:text="退出当前账户"
+                    android:textAppearance="@style/UserSmallTitle"
+                    android:translationY="-0.04sp" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/month_chevron" />
+            </RelativeLayout>
+        </LinearLayout>
+        >
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="371dp"
+        android:layout_height="188dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rectangle_1"
+        android:elevation="44dp">
+
+        <LinearLayout
+            android:layout_width="345dp"
+            android:layout_height="291dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="17dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha="0.05"
+                    android:background="@drawable/ellipse_643" />
+
+                <View
+                    android:layout_width="14dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/stroke_8" />
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="27dp"
+                    android:alpha="0.4"
+                    android:background="@drawable/stroke_9" />
+
+                <TextView
+                    android:layout_width="91dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="1sp"
+                    android:text="帮助中心"
+                    android:textAppearance="@style/UserBigTitle"
+                    android:translationY="-0.34sp" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/month_chevron" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha="0.05"
+                    android:background="@drawable/ellipse_643" />
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/stroke_10" />
+
+                <TextView
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="1sp"
+                    android:text="关于健康管家"
+                    android:textAppearance="@style/UserBigTitle"
+                    android:translationY="-0.34sp" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/month_chevron" />
+            </RelativeLayout>
+        </LinearLayout>
+        >
+    </RelativeLayout>
+
+</RelativeLayout>

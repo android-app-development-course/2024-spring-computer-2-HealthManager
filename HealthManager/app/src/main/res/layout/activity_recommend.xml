@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RecommendActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:menu="@menu/top_app_bar"
+                app:navigationIcon="@drawable/ic_baseline_close_24"
+                app:title="健康管家" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/tuisong">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="328dp"
+            android:layout_height="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lineSpacingExtra="5sp"
+            android:text="登山——新时代的运动潮流？"
+            android:textColor="@color/text_color"
+            android:textSize="18dp"
+            android:translationY="-2.62sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="328dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="16dp"
+            android:gravity="right"
+            android:lineSpacingExtra="4sp"
+            android:text="是大众跟风或是确有其道理"
+            android:textColor="@color/text_color"
+            android:translationY="-1.8sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="近年来，登山运动正风靡于各大学生群体，究竟是什么让大学生对这些运动如此痴迷？"
+            android:textColor="@color/text_color"
+            android:translationY="-1.8sp">
+
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

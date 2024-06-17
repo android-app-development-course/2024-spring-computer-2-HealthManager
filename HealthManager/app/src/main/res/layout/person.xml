@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="@string/page_title"
+                app:menu="@menu/top_app_bar"
+                app:navigationIcon="@drawable/ic_baseline_account_circle_24"
+                android:background="@drawable/top_app_bar_background" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <!-- Note: A RecyclerView can also be used -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <!-- Scrollable content -->
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <!--TODO-->
+    <RelativeLayout
+        android:elevation="20dp"
+        android:background="@drawable/boyuyouxiang"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_centerHorizontal="true">
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/person1_background"
+        android:elevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_person1"></LinearLayout>
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="52dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="56dp"
+            android:gravity="top"
+            android:lineSpacingExtra="1sp"
+            android:text="账号设置"
+            android:textAppearance="@style/account_set"
+            android:translationY="-0.34sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/person1_background"
+        android:elevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_person1"></LinearLayout>
+
+        <TextView
+            android:id="@+id/some_id1"
+            android:layout_width="52dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="56dp"
+            android:gravity="top"
+            android:lineSpacingExtra="1sp"
+            android:text="地址管理"
+            android:textAppearance="@style/account_set"
+            android:translationY="-0.34sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/person1_background"
+        android:elevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_liangburenzhen"></LinearLayout>
+
+        <TextView
+            android:id="@+id/some_id2"
+            android:layout_width="52dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="56dp"
+            android:gravity="top"
+            android:lineSpacingExtra="1sp"
+            android:text="两步认证"
+            android:textAppearance="@style/account_set"
+            android:translationY="-0.34sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/person1_background"
+        android:elevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_zhanghaodengchu"></LinearLayout>
+
+        <TextView
+            android:id="@+id/some_id4"
+            android:layout_width="52dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="56dp"
+            android:gravity="top"
+            android:lineSpacingExtra="1sp"
+            android:text="账号登出"
+            android:textAppearance="@style/account_set"
+            android:translationY="-0.34sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/person1_background"
+        android:elevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_bangzhuzhongxin"></LinearLayout>
+
+        <TextView
+            android:id="@+id/some_id5"
+            android:layout_width="52dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="56dp"
+            android:gravity="top"
+            android:lineSpacingExtra="1sp"
+            android:text="帮助中心"
+            android:textAppearance="@style/account_set"
+            android:translationY="-0.34sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/person1_background"
+        android:elevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_guanyutangxiao"></LinearLayout>
+
+        <TextView
+            android:id="@+id/some_id6"
+            android:layout_width="52dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="56dp"
+            android:gravity="top"
+            android:lineSpacingExtra="1sp"
+            android:text="关于糖晓"
+            android:textAppearance="@style/account_set"
+            android:translationY="-0.34sp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        app:menu="@menu/bottom_menu"
+        android:background="@drawable/round_corner_bottom"
+        app:itemIconSize="30dp"
+        app:labelVisibilityMode="unlabeled"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Activity_run">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginLeft="9dp"
+        android:scaleY="1.2"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/green_background" />
+
+    <ImageView
+        android:id="@+id/sxlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/sport1" />
+
+    <ImageView
+        android:id="@+id/tbls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        app:srcCompat="@drawable/sport2" />
+
+    <ImageView
+        android:id="@+id/nlp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/sport3" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="50dp"
+        android:background="#E0E0E0" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:text="今日计划"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_back"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="12dp"
+        android:text="返回"
+        android:textColor="#66CCFF"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:scaleX="-2"
+        android:scaleY="2"
+        app:srcCompat="@drawable/month_chevron" />
+
+
+
+    <TableLayout
+        android:id="@+id/tably"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        >
+        <TableRow
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="今日运动项目："
+                android:layout_marginLeft="40dp"
+                android:textSize="25sp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</FrameLayout>
